@@ -1,0 +1,16 @@
+[Unit]
+Description=cloud-monitor-agent
+
+[Service]
+Type=simple
+ExecStart=/usr/local/cloud-monitor-agent/cloud-monitor-agent start
+
+Restart=on-failure
+RestartSec=60s
+
+KillMode=process
+MemoryLimit=50M
+CPUShares=20
+
+[Install]
+WantedBy=multi-user.target

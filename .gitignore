@@ -1,0 +1,6 @@
+.vscode
+*.out
+.codebase_temp/
+.idea
+*.swo
+*.swp
