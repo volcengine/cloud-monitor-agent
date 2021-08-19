@@ -11,7 +11,7 @@
 ### Supported systems
 
 - Linux
-    - CentOS6.9、CentOS7.6、CentOS7.7 and CentOS8.3
+    - CentOS7 or later
 - Windows
     - Not support now
 
